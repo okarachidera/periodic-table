@@ -28,7 +28,7 @@ body{
     .periodicdata{
         display: grid;
         font-size: larger;
-        padding: 20px;
+        /* padding: 20px; */
         text-align: center;
         align-content: center;
         border: 1px solid black;
