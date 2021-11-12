@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.parent {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: repeat(8, 2fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    color: white;
+
+    }
+    .row-header{
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .periodicdata{
+        display: grid;
+        font-size: larger;
+        padding: 20px;
+        text-align: center;
+        align-content: center;
+        border: 1px solid black;
+        text-transform: capitalize;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    .p1-r{
+        background-color: green;
+    }
+    .p-dg{
+        background-color: rgb(0, 29, 0);
+    }
+    .p-blue{
+        background-color: rgb(61, 61, 224);
+    }
+    .p-brown{
+        background-color: rgba(114, 59, 34, 0.932);
+    }
+    .p-dp{
+        background-color: rgb(97, 0, 89);
+    }
+    .p-lp{
+        background-color: rgb(255, 0, 234);
+    }
+    .p-red{
+        background-color:#892517
+    }
+    .p-black{
+        background-attachment: black;
+    }
+
+    .fhs{
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .hang-no{
+        align-self: start;
+        align-items: flex-start;
+        font-size: 8px;
+    }
